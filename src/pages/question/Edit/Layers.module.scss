@@ -1,0 +1,26 @@
+.wrapper{
+ display: flex;
+ justify-content: space-between;
+ padding: 12px 0;
+ border-bottom: 1px solid #f8f8f8;
+ cursor: pointer;
+}
+.title{
+    flex: 1;
+}
+.selected{
+    color: #1677ff;
+}
+.handler{
+    flex: 1;
+    text-align: right;
+    
+}
+.handler:hover{
+    .btn{
+        opacity: 1;
+    }
+}
+.btn{
+    opacity: .3;
+}
